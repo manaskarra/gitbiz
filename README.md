@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="GitBiz" width="200"/>
+  <img src="assets/logo-v2.png" alt="GitBiz" width="220"/>
 </p>
 
 # GitBiz — GitHub Opportunity Discovery Bot
