@@ -2,7 +2,7 @@
   <img src="assets/gitbiz.png" alt="GitBiz" width="220"/>
 </p>
 
-# GitBiz — GitHub Opportunity Discovery Bot
+# GitBiz — AI Venture Analyst for Open Source
 
 A Discord bot that discovers open-source GitHub repositories, evaluates them for latent business and product potential using an LLM venture analyst, and streams approved findings directly to your Discord channel.
 
