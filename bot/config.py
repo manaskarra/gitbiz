@@ -34,19 +34,19 @@ class Settings(BaseSettings):
     search_keywords: list[str] = Field(default_factory=lambda: [
         # Interleaved by category so each daily cycle gets diverse signal
         # Day 1
-        "agent", "llm", "sandbox", "saas", "voice-agent", "trading-agent", "cli", "scraper", "openclaw", "qwen",
+        "agent", "llm", "saas", "voice-agent", "ai-business", "trading-agent", "cli", "scraper", "ai-startup", "qwen",
         # Day 2
         "multi-agent", "rag", "memory", "self-hosted", "text-to-speech", "ai-finance", "devtool", "data-pipeline", "mcp", "gemma",
         # Day 3
-        "coding-agent", "ollama", "observability", "open-source", "realtime-voice", "code-assistant", "automation", "search-engine", "claw", "kimi",
+        "coding-agent", "ollama", "observability", "ai-productivity", "realtime-voice", "code-assistant", "automation", "search-engine", "enterprise-ai", "workflow-automation",
         # Day 4
-        "swe-agent", "local-llm", "evals", "no-code", "virtual-character", "headless-browser", "workflow", "web-scraping", "agentic", "glm",
+        "swe-agent", "local-llm", "evals", "no-code", "ai-sales", "headless-browser", "workflow", "web-scraping", "agentic", "ai-assistant",
         # Day 5
-        "langgraph", "vllm", "red-team", "internal-tool", "ai-security", "ai-platform", "orchestration", "skills", "browser-use", "bitnet",
+        "langgraph", "vllm", "ai-security", "internal-tool", "ai-analytics", "ai-platform", "orchestration", "browser-use", "customer-support-ai", "sandbox",
         # Day 6
-        "crewai", "embeddings", "local-first", "dashboard", "ai-gateway", "hooks", "deepagent", "computer-use", "voltagent", "claude",
+        "crewai", "embeddings", "local-first", "dashboard", "ai-gateway", "ai-marketing", "computer-use", "voltagent", "claude", "openai",
         # Day 7
-        "autogen", "vector-database", "agent-harness", "builder", "ai-proxy", "web-agent", "inference", "copilot", "openai", "anthropic",
+        "autogen", "vector-database", "ai-recruiting", "builder", "ai-proxy", "web-agent", "inference", "copilot", "ai-legal", "anthropic",
     ])
 
 
