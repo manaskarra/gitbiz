@@ -95,7 +95,7 @@ async def _scheduled_popular() -> None:
 @bot.event
 async def on_ready() -> None:
     logger.info("bot_ready", user=str(bot.user), guilds=len(bot.guilds))
-    await bot.sync_commands(delete_existing=True)
+    await bot.sync_commands(force=True)
     logger.info("commands_synced")
     scheduler.add_job(
         _scheduled_full_pipeline,
